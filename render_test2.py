@@ -2,7 +2,7 @@
 
 
 import dash
-from dash import dcc, html
+from dash import Dash, dcc, html, Input, Output
 from dash.dependencies import Input, Output
 import pandas as pd
 import plotly.express as px
@@ -14,9 +14,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import to_rgba
 from matplotlib.ticker import FuncFormatter
-import dash_core_components as dcc
-import dash_html_components as html
-from dash.dependencies import Input, Output
+#import dash_core_components as dcc
+#import dash_html_components as html
 import plotly.graph_objects as go
 import math
 import gdown

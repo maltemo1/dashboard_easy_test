@@ -1,6 +1,5 @@
 
 
-!pip install dash pandas plotly
 
 import dash
 from dash import dcc, html
